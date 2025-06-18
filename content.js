@@ -13,7 +13,7 @@ document.addEventListener("mouseup", () => {
   });
 
   function convertImperialToMetric(text) {
-
+    
     const troyConversions = [
       {
         regex: /(\d{1,3}(?:,\d{3})*(?:\.\d+)?|\b)?\s*\b(troy ounces|troy ounce|ozt|oz t)\b/gi,
@@ -54,6 +54,18 @@ document.addEventListener("mouseup", () => {
     ];
   
     let converted = text;
+
+    // Height shit
+    converted = converted.replace(/(\d{1,2})\s*[′']\s*(\d{1,2})?\s*(?:["″])?/g, (match, feetStr, inchStr) => {
+      const feet = parseInt(feetStr, 10);
+      const inches = inchStr ? parseInt(inchStr, 10) : 0;
+
+      if (isNaN(feet) || isNaN(inches)) return match;
+
+      const totalInches = feet * 12 + inches;
+      const cm = (totalInches * 2.54).toFixed(2);
+      return `${cm} cm`;
+    });
   
     const tempRegex = /(-?\d+(?:\.\d+)?)\s*(°F|Fahrenheit|° Fahrenheit|°Fahrenheit)\b/gi;
     converted = converted.replace(tempRegex, (_, value) => {

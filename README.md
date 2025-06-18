@@ -39,7 +39,17 @@ Because "12 inches = 1 foot, 3 feet = 1 yard, 1760 yards = 1 mile" is a sentence
 ![изображение](https://github.com/user-attachments/assets/7725dadc-bea2-4322-982a-f312f679ada9)
 
 ---
+## Installation
 
+(temporaly)
+1. download archive and unzip it
+2, go to about:debugging#/runtime/this-firefox and push this button:
+
+![изображение](https://github.com/user-attachments/assets/e557d123-5b6b-4fc9-bdd9-96596f0b37aa)
+
+3. find manifest.json and chose it
+4. done, fuck you imperial measurement
+---
 ## 🛠 Tech stuff
 
 * Pure JavaScript

@@ -43,7 +43,7 @@ Because "12 inches = 1 foot, 3 feet = 1 yard, 1760 yards = 1 mile" is a sentence
 
 (temporaly)
 1. download archive and unzip it
-2, go to about:debugging#/runtime/this-firefox and push this button:
+2. go to about:debugging#/runtime/this-firefox and push this button:
 
 ![изображение](https://github.com/user-attachments/assets/e557d123-5b6b-4fc9-bdd9-96596f0b37aa)
 

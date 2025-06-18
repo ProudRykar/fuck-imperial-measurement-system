@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Imperial to Metric Converter",
+    "version": "1.0",
+    "description": "Converts imperial units (inches, miles, etc.) to metric when you select text.",
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  

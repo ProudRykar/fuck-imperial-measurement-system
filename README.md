@@ -34,6 +34,9 @@ Because "12 inches = 1 foot, 3 feet = 1 yard, 1760 yards = 1 mile" is a sentence
 1. Open any webpage.
 2. Highlight imperial garbage.
 3. Metric truth appears. You're welcome.
+   
+![изображение](https://github.com/user-attachments/assets/659c370a-fdc1-43e2-a053-088ae3522649)
+![изображение](https://github.com/user-attachments/assets/7725dadc-bea2-4322-982a-f312f679ada9)
 
 ---
 
